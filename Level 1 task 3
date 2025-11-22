@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+void squareAndCube(int n)   {
+    cout<<"Kvadrat:"<<n*n<<endl;
+    cout<<"Kub:"<<n*n*n<<endl;
+}
+    
+int main()  {
+    int x;
+    cout<<"Eded daxil edin:";
+    cin>>x;
+    
+    squareAndCube (x);
+}    
+
